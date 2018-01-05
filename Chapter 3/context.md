@@ -139,4 +139,7 @@ Example 3: Find all sources that are represented in a specific number of entries
     PS C:\>$Events = Get-Eventlog -LogName system -Newest 1000
     PS C:\>$Events | Group-Object -Property source -noelement | Sort-Object -Property count -Descending
 ```
-
+## 访问在线帮助
+```
+Help Get-EventLog -online
+```
