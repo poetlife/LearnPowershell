@@ -69,4 +69,16 @@ PS > dir
 PS > Stop-Transcript
 ```
 导出的文件如文件中的`result.txt`
+
 8. 从安全事件（event）日志检索所有的条目可能需要很长的时间，你怎么只获取最近100条记录呢？
+```
+Process to Answer This Question:
+PS > get-eventlog -logname application -newest 100
+```
+9. 是否有办法可以获取一个远程计算机上安装的服务（service）列表？
+```
+Process to Answer This Question:
+PS > get-service -computername <>
+```
+10. 是否有办法看到一个远程计算机运行了什么进程？
+
