@@ -119,6 +119,11 @@ DateTime | 日期
 Example: `[-ComputerName <string[]>]`
 事实上，`string[]`**表示这个参数可以接受数组、集合或者是一个列表类型的字符串，但只提供一个值也是合法的**。一个简单的方法就是，用**逗号**为分隔符的列表。e.g.`Get-EventLog Security -computer Server-R2, DC4, Files02`
 
+### 访问“关于”主题
+PowerShell的帮助系统中包含许多背景主题，可以用来帮助定位指定的Cmdlet命令。这些背景主题通常被称为“关于”主题，因为它们都是以“about_”开头的。
+```
+PS > about_array
+```
 ### 发现命令实例
 ```
 PS > Help Get-EventLog -example
