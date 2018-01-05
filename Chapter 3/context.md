@@ -5,5 +5,5 @@
 PowerShell可以通过互联网进行下载更新、修正和拓展。
 使用命令：`PS > update-help`即可更新帮助信息。
 
-![1.jpg](https://github.com/poetlife/LearnPowerShell/blod/master/pics/3_1.jpg)
+![1.jpg](https://github.com/poetlife/LearnPowershell/blob/master/pics/3_1.jpg)
 
