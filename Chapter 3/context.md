@@ -72,7 +72,28 @@ Syntax
 通常来说，参数是有位置性的，这意味着只要你把参数值放在正确的位置，你就可以只提供这个参数值，而不需要输入具体的参数名。
 有两种方式确定位置参数：
 1. 通过语法概要
+只有**参数名被方括号括起来的参数，才是位置参数**。
+Examples:
+```
+Get-EventLog [-LogName] <String> [[-InstanceId] <Int64[]>]
+```
++ 第一个参数，它是必选的，因为**它的参数名和参数值不在同一个方括号里面**，且`LogName`又在方括号里面，所以这也是一个位置参数。
++ 第二个参数，他是可选的，而其本身也是一个位置参数，因为`InstanceId`在方括号里面。
 2. 通过详细的帮助文档
+```
+PS > Help Get-EventLog -full
+参数
+    -After <DateTime>
+        Specifies the data and time that this cmdlet get events that occur after. Enter a DateTim
+        e object, such as the one returned by the Get-Date cmdlet.
+
+        是否必需?                    False
+        位置?                        named
+        默认值                None
+        是否接受管道输入?            False
+        是否接受通配符?              False
+```
+可以通过这里找到详细的是否位置参数。
 ### 参数值
 
 ### 发现命令实例
