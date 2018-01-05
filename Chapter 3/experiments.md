@@ -86,3 +86,26 @@ Process to Answer This Question:
 PS > get-process
 ```
 11. 尝试查看`Out-File`这个Cmdlet命令的帮助文档，通过这个Cmdlet命令输出到文件每一行记录的默认宽度大小为多少个字符？是否有一个参数可以让你修改这个宽度？
+```
+answer:
+ -Width <Int32>
+        Specifies the number of characters in each line of output. Any additional characters are truncate
+        d, not wrapped. If you omit this parameter, the width is determined by the characteristics of the
+         host. The default for the Windows PowerShell console is 80 characters.
+
+        是否必需?                    False
+        位置?                        named
+        默认值                None
+        是否接受管道输入?            False
+        是否接受通配符?              False
+ ```
+ 12. 防止`Out-File`覆盖文件？
+ ```
+ answer:
+ -noclobber
+ ```
+ 13. 怎么查看在PowerShell中预先定义所有别名（aliases）的列表？
+ ```
+Process to Answer This Question:
+PS >
+```
