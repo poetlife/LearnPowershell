@@ -47,7 +47,33 @@ Get-WindowsUpdateLog              Function  WindowsUpdate             ...
 \*作为一个通配符，可以匹配0个或者多个字符。
 ## 详解帮助
 ### 参数集和通用参数
+Example:
+```
+PS > help Get-EventLog
+Syntax
+    Get-EventLog [-LogName] <String> [[-InstanceId] <Int64[]>] [-After <DateTime>] [-AsBaseObject
+    ] [-Before <DateTime>] [-ComputerName <String[]>] [-EntryType <String[]> {Error | Information
+     | FailureAudit | SuccessAudit | Warning}] [-Index <Int32[]>] [-Message <String>] [-Newest <I
+    nt32>] [-Source <String[]>] [-UserName <String[]>] [<CommonParameters>]
+
+    Get-EventLog [-AsString] [-ComputerName <String[]>] [-List] [<CommonParameters>]
+```
+注意，这里这个命令提供了两个不同的参数集，且每个PowerShell的Cmdlet参数的结尾都有\[<CommonParameters>]，这个泛指每个Cmdlet命令都是使用的一组包含8个参数的集合。
+
 ### 可选和必选参数
+```
+  Get-EventLog [-LogName] <String> [[-InstanceId] <Int64[]>] [-After <DateTime>] [-AsBaseObject
+    ] [-Before <DateTime>] [-ComputerName <String[]>] [-EntryType <String[]> {Error | Information
+     | FailureAudit | SuccessAudit | Warning}] [-Index <Int32[]>] [-Message <String>] [-Newest <I
+    nt32>] [-Source <String[]>] [-UserName <String[]>] [<CommonParameters>]
+```
+ 其中，`[-LogName] <String>`为**必选参数**，其他的类似`[[-InstanceId] <Int64[]>]`的为**可选参数**。
 ### 位置参数
+通常来说，参数是有位置性的，这意味着只要你把参数值放在正确的位置，你就可以只提供这个参数值，而不需要输入具体的参数名。
+有两种方式确定位置参数：
+1. 通过语法概要
+2. 通过详细的帮助文档
 ### 参数值
+
 ### 发现命令实例
+
