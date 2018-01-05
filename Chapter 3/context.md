@@ -108,6 +108,7 @@ PS > Help Get-EventLog -full
 例如：`[-LogName] <String>`
 
 + 通常的输入类型
+
 name | synopsis
 ------ | ------
 String | 字符串
