@@ -81,4 +81,8 @@ Process to Answer This Question:
 PS > get-service -computername <>
 ```
 10. 是否有办法看到一个远程计算机运行了什么进程？
-
+```
+Process to Answer This Question:
+PS > get-process
+```
+11. 尝试查看`Out-File`这个Cmdlet命令的帮助文档，通过这个Cmdlet命令输出到文件每一行记录的默认宽度大小为多少个字符？是否有一个参数可以让你修改这个宽度？
