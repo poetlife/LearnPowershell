@@ -10,7 +10,13 @@
 2. 剪切板操作使用的是非标准键
 3. PowerShell在输入的时候会提供少量的帮助信息
 
-![1.jpg](https://github.com/poetlife/LearnPowershell/blob/master/pics/2_2.png)
+![2.png](https://github.com/poetlife/LearnPowershell/blob/master/pics/2_2.png)
 
 ### 集成脚本环境（ISE）
+打开ISE：`PS ISE`，然后就可以打开ISE环境。
+1. 支持双字节字符集
+2. 提供常规的剪切板的操作
 
+![3.jpg](https://github.com/poetlife/LearnPowershell/blob/master/pics/2_3.jpg)
+
+## 重新认识代码输入
