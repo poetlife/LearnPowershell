@@ -137,5 +137,5 @@ Remove-WmiObject                  Cmdlet    Microsoft.PowerShell.M... D
 16. 这一章中简单的提到了数组（array）。什么帮助主题可以告诉你关于它们的更多信息？
 ```
 Process to Answer This Question:
-PS > 
+PS > about_Arrays
 ```
