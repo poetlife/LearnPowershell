@@ -116,7 +116,27 @@ Int, Int32 or Int64 | 整数类型
 DateTime | 日期
 
 + 包括方括号的值
-
+Example: `[-ComputerName <string[]>]`
+事实上，`string[]`**表示这个参数可以接受数组、集合或者是一个列表类型的字符串，但只提供一个值也是合法的**。一个简单的方法就是，用**逗号**为分隔符的列表。e.g.`Get-EventLog Security -computer Server-R2, DC4, Files02`
 
 ### 发现命令实例
+```
+PS > Help Get-EventLog -example
+Example 1: Get event logs on a computer
+
+    PS C:\>Get-EventLog -List
+
+
+    This command gets the event logs on the computer.
+Example 2: Get the five most recent entries from a specific event log
+
+    PS C:\>Get-EventLog -Newest 5 -LogName "Application"
+
+
+    This command gets the five most recent entries from the Application event log.
+Example 3: Find all sources that are represented in a specific number of entries in an event log
+
+    PS C:\>$Events = Get-Eventlog -LogName system -Newest 1000
+    PS C:\>$Events | Group-Object -Property source -noelement | Sort-Object -Property count -Descending
+```
 
