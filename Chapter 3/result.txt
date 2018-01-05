@@ -1,0 +1,51 @@
+﻿**********************
+Windows PowerShell 脚本开始
+开始时间: 20180105214154
+用户名: PENGJIDONG\纪东
+RunAs 用户: PENGJIDONG\纪东
+计算机: PENGJIDONG (Microsoft Windows NT 10.0.10240.0)
+主机应用程序: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+进程 ID: 4224
+PSVersion: 5.0.10240.17146
+WSManStackVersion: 3.0
+SerializationVersion: 1.1.0.1
+CLRVersion: 4.0.30319.42000
+BuildVersion: 10.0.10011.16384
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0.10240.17146
+PSRemotingProtocolVersion: 2.3
+**********************
+已启动脚本，输出文件为 E:/result.txt
+PS E:\> dir
+
+
+    目录: E:\
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       2016-10-13     19:09                BaiduNetdiskDownload
+d-----       2017-12-25     18:02                BaiduYunDownload
+d-----       2016-10-13     19:33                BaiduYunGuansmile1110
+d-----       2017-12-11     12:40                CloudMusic
+d-----       2017-09-29     14:27                CounterUnions3D
+d-----       2018-01-05     16:00                Flask
+d-----       2017-12-14     15:37                game
+d-----       2017-09-06     22:59                Github
+d-----       2017-08-13     15:49                Machine-Learning-with-Python-master
+d-----       2017-11-27     12:46                MachineLearning
+d-r---       2017-12-20     19:06                pjd
+d-----       2017-11-17     13:55                Program Files
+d-----       2017-10-12     14:20                迅雷下载
+-a----       2017-12-30     18:31           4464 1.txt
+-a----       2017-12-29     21:48           9604 1.xlsx
+-a----       2017-12-29     22:01         154978 2017-12-29财大课程容量信息.xlsx
+-a----       2017-12-30     18:45         154902 2017-12-30财大课程容量信息.xlsx
+-a----       2017-12-30     13:46           7248 course_select.xlsx
+             2018-01-05     21:41              0 result.txt
+
+
+PS E:\> Stop-Transcript
+**********************
+Windows PowerShell 脚本结束
+结束时间: 20180105214207
+**********************
