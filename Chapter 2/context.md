@@ -20,3 +20,23 @@
 ![3.jpg](https://github.com/poetlife/LearnPowershell/blob/master/pics/2_3.jpg)
 
 ## 重新认识代码输入
+tab键可以补全很多参数，也可以遍历命令、目录等。
+
+## 常见误区
+1. 尽量使用64位的
+2. 确保PowerShell具有管理员权限
+
+## 如何查看当前的版本
+```
+PS > $PSVersionTable
+Name                           Value
+----                           -----
+PSVersion                      5.0.10240.17146
+WSManStackVersion              3.0
+SerializationVersion           1.1.0.1
+CLRVersion                     4.0.30319.42000
+BuildVersion                   10.0.10011.16384
+PSCompatibleVersions           {1.0, 2.0, 3.0, 4.0...}
+PSRemotingProtocolVersion      2.3
+```
+要求版本至少在3.0以上。
