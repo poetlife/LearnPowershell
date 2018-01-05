@@ -64,5 +64,8 @@ PS > help *alias*
 7. 怎么保证你在shell中输入都在一个脚本（transcript）中，怎么保存这个脚本到一个文本文件中？
 ```
 Process to Answer This Question:
-PS >
+PS > Start-Transcript -Path E:/result.txt -noclobber
+PS > dir
+PS > Stop-Transcript
 ```
+导出的文件如文件中的`result.txt`
