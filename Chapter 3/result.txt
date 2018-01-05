@@ -1,9 +1,9 @@
-﻿**********************
+**********************
 Windows PowerShell 脚本开始
 开始时间: 20180105214154
-用户名: PENGJIDONG\纪东
-RunAs 用户: PENGJIDONG\纪东
-计算机: PENGJIDONG (Microsoft Windows NT 10.0.10240.0)
+用户名: USER\user
+RunAs 用户: USER\user
+计算机: USER (Microsoft Windows NT 10.0.10240.0)
 主机应用程序: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
 进程 ID: 4224
 PSVersion: 5.0.10240.17146
