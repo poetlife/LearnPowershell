@@ -69,3 +69,4 @@ PS > dir
 PS > Stop-Transcript
 ```
 导出的文件如文件中的`result.txt`
+8. 从安全事件（event）日志检索所有的条目可能需要很长的时间，你怎么只获取最近100条记录呢？
