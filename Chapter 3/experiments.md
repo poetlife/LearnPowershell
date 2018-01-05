@@ -107,5 +107,10 @@ answer:
  13. 怎么查看在PowerShell中预先定义所有别名（aliases）的列表？
  ```
 Process to Answer This Question:
+PS > alias
+```
+14. 怎么使用别名和缩写的参数名称来写一条最短的命令，就能检索出一台名为server1计算机中正在运行的进程列表？
+```
+Process to Answer This Question:
 PS >
 ```
