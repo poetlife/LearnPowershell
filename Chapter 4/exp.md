@@ -34,9 +34,9 @@ PS > get-service -displayname M*
 7. 显示所有的Windows防火墙规则。
 ```
 Answer is:
-PS > 
+PS > show-netfirewallrule
 ```
-8. 显示所有Windows防火墙的入站规则。
+8. 显示所有Windows防火墙的入站规则。(__*remain unsolved!!*__)
 ```
 Answer is:
 PS > 
