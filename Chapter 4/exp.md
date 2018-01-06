@@ -24,5 +24,20 @@ PS > alias
 5. 创建一个新的别名，使用该别名可以运行“D”获取目录列表
 ```
 Answer is:
+PS > new-alias -name D -value dir
+```
+6. 显示以字母M开头的服务名称。
+```
+Answer is:
+PS > get-service -displayname M*
+```
+7. 显示所有的Windows防火墙规则。
+```
+Answer is:
+PS > 
+```
+8. 显示所有Windows防火墙的入站规则。
+```
+Answer is:
 PS > 
 ```
