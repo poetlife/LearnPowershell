@@ -118,8 +118,24 @@ Unprotect   Security
 Use         Other
 ```
 ## 别名：命令的昵称
+```
+PS > help aliases
+PS > New-alias
+PS > Export-Alias
+PS > Get-Alias
+```
 ## 使用快捷方式
+### 简化参数名称
+只要输入足够多的字母，能使PowerShell识别参数就可以了，PowerShell并不强制输入完整的参数名称。
+### 参数名称别名
+```
+PS > (get-command get-eventlog | select -expandproperty parameters).computername.aliases 
+```
+### 位置参数
 ## 小小作弊一下：`Show-Command`
+`Show-Command Cmdlet`允许你指定你无法用对的命令名称，并以图形化的方式将命令的参数名称展示出来
 ## 对扩展命令的支持
-## 处理错误
-## 常见误区
+当需要运行`cmd.exe`中的命令时，你想PowerShell直接运行，可以直接在命令之后加两个破折号。
+```
+PS > Python E:/flask/"network programming"/CourseInfo.py -u 220150**** -p ** -o E:/1.txt -t E:/result.xlsx --
+```
