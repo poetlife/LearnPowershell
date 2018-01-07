@@ -8,5 +8,6 @@ Windows文件系统主要由**3种对象组成**：
 + 磁盘驱动器：最上层的对象，包含文件夹和文件。
 + 文件夹： 容器对象，可以包含文件夹和文件。
 + 文件： 最小单位的对象。
+![Windows资源管理器](https://github.com/poetlife/LearnPowershell/blob/master/pics/5_1.jpg)
 PowerShell中的术语和文件系统略有**不同**。因为PSDrive可能不是指向某个文件系统——比如PSDrive可以映射到注册表，所PowerShell不使用“文件夹/文件”的说法，而采用更通俗的说法“Item”。
 
