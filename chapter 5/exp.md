@@ -34,7 +34,8 @@ PS E:\> set-item -Path .\Test.txt -Value TESTING
 > 说明
     The Set-Item cmdlet changes the value of an item, such as a variable or registry key, to the
     value specified in the command.
-    
+
+
 不属于一个PSProvider。
 
 4. `Get-ChildItem`的`-Filter`、`-Include`、`-Exclude`参数之间有什么不同？
