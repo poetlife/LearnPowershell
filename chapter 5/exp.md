@@ -42,7 +42,7 @@ PS E:\> set-item -Path .\Test.txt -Value TESTING
 >  -Exclude <String\[]>
         Specifies, as a string array, an item or items that this cmdlet excludes in the operation
         . The value of this parameter qualifies the Path parameter. Enter a path element or patte
-        rn, such as *.txt. Wildcards are permitted.
+        rn, such as \*.txt. Wildcards are permitted.
         
 >  -Filter <String>
         Specifies a filter in the provider's format or language. The value of this parameter qual
@@ -54,8 +54,7 @@ PS E:\> set-item -Path .\Test.txt -Value TESTING
 > -Include <String\[]>
         Specifies, as a string array, an item or items that this cmdlet includes in the operation
         . The value of this parameter qualifies the Path parameter. Enter a path element or patte
-        rn, such as *.txt. Wildcards are permitted.
-
+        rn, such as \*.txt. Wildcards are permitted.
         The Include parameter is effective only when the command includes the Recurse parameter o
-        r the path leads to the contents of a directory, such as C:\Windows\*, where the wildcard
-         character specifies the contents of the C:\Windows directory.
+        r the path leads to the contents of a directory, such as C:\\Windows\\*, where the wildcard
+         character specifies the contents of the C:\\Windows directory.
