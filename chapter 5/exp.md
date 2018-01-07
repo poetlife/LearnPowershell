@@ -36,6 +36,26 @@ PS E:\> set-item -Path .\Test.txt -Value TESTING
     value specified in the command.
 
 
-不属于一个PSProvider。
+不属于一个PSProvider。**并不是每种功能在每种储存中都能运行。**
 
 4. `Get-ChildItem`的`-Filter`、`-Include`、`-Exclude`参数之间有什么不同？
+>  -Exclude <String\[]>
+        Specifies, as a string array, an item or items that this cmdlet excludes in the operation
+        . The value of this parameter qualifies the Path parameter. Enter a path element or patte
+        rn, such as *.txt. Wildcards are permitted.
+        
+>  -Filter <String>
+        Specifies a filter in the provider's format or language. The value of this parameter qual
+        ifies the Path parameter. The syntax of the filter, including the use of wildcards, depen
+        ds on the provider. Filters are more efficient than other parameters, because the provide
+        r applies them when retrieving the objects, rather than having Windows PowerShell filter
+        the objects after they are retrieved.
+    
+> -Include <String\[]>
+        Specifies, as a string array, an item or items that this cmdlet includes in the operation
+        . The value of this parameter qualifies the Path parameter. Enter a path element or patte
+        rn, such as *.txt. Wildcards are permitted.
+
+        The Include parameter is effective only when the command includes the Recurse parameter o
+        r the path leads to the contents of a directory, such as C:\Windows\*, where the wildcard
+         character specifies the contents of the C:\Windows directory.
