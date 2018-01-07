@@ -9,8 +9,21 @@ PSProperty dontprettypath -value 1
 ```
 
 2. 创建空文件C:/Test.txt。
+```
+PS E:\> new-item -ItemType File -Name Test.txt
 
+
+    目录: E:\
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----       2018-01-07     15:40              0 Test.txt
+```
 
 3. 尝试用`Set-Item`去修改Test.txt的内容为TESTING，是否可行？是否报错？想想为啥报错。
+```
+
+```
 
 4. `Get-ChildItem`的`-Filter`、`-Include`、`-Exclude`参数之间有什么不同？
