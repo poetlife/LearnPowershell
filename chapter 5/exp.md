@@ -23,7 +23,13 @@ Mode                LastWriteTime         Length Name
 
 3. 尝试用`Set-Item`去修改Test.txt的内容为TESTING，是否可行？是否报错？想想为啥报错。
 ```
+PS E:\> set-item -Path .\Test.txt -Value TESTING
 
+所在位置 行:1 字符: 1
++ set-item -Path .\Test.txt -Value TESTING
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotImplemented: (:) [Set-Item], PSNotSupportedException
+    + FullyQualifiedErrorId : NotSupported,Microsoft.PowerShell.Commands.SetItemCommand
 ```
 
 4. `Get-ChildItem`的`-Filter`、`-Include`、`-Exclude`参数之间有什么不同？
