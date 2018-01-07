@@ -54,3 +54,6 @@ d-----       2018-01-07     15:13                testfolder
 ![后果2](https://github.com/poetlife/LearnPowershell/blob/master/pics/5_4.jpg)
 
 ## 使用通配符以及绝对路径
+大部分项的Cmdlet都包含了`-path`属性。默认情况下，该属性**支持通配符**输入。
+其中，**“\*”通配符表示0个或多个字符，“？”通配符仅代表单个字符**。
+PowerShell为了显示不使用通配符，给出了一个新的参数`-LiteralPath`。该参数不支持任何通配符。
