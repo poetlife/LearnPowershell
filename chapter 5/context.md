@@ -35,3 +35,17 @@ Mode                LastWriteTime         Length Name
 ```
 你必须要告诉Cmdlet你希望创建的类型是什么。要不然就会产生下面的后果：
 ![后果](https://github.com/poetlife/LearnPowershell/blob/master/pics/5_3.jpg)
+所以，若我们需要创建一个新的文件夹：
+```
+PS E:\> new-item -ItemType Directory testfolder
+
+
+    目录: E:\
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       2018-01-07     15:13                testfolder
+```
+执行显示结果如下：
+![后果2](https://github.com/poetlife/LearnPowershell/blob/master/pics/5_4.jpg)
