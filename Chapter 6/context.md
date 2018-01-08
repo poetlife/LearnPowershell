@@ -7,3 +7,12 @@ PowerShell通过**管道（Pipeline）**把命令相互连接起来。管道通�
 PS E:\> Get-Process | Export-Csv result.csv
 ```
 ![CSV文件](https://github.com/poetlife/LearnPowershell/blob/master/pics/6_2.jpg)
+### 输出结果到XML
+```
+PS E:\> get-process | Export-Clixml 1.xml
+```
+### 对比文件
+```
+Compare-Object
+```
+## 管道传输到文件或打印机
