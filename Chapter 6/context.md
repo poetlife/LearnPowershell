@@ -6,4 +6,4 @@ PowerShell通过**管道（Pipeline）**把命令相互连接起来。管道通�
 ```
 PS E:\> Get-Process | Export-Csv result.csv
 ```
-![CSV文件](https://github.com/poetlife/LearnPowershell/blob/master/pics/6_1.jpg)
+![CSV文件](https://github.com/poetlife/LearnPowershell/blob/master/pics/6_2.jpg)
