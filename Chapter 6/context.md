@@ -16,3 +16,8 @@ PS E:\> get-process | Export-Clixml 1.xml
 Compare-Object
 ```
 ## 管道传输到文件或打印机
+## 转换成HTML
+在PowerShell的世界里，动词“export”表示**你把数据提取，然后转换成为其他格式，最后将转换后的格式存到某些储存介质中**，而动词“ConvertTO”**仅仅是处理过程的一部分，它仅转换不保存**。
+```
+PS > Get-Service | ConvertTo-HTML | Out-File service.html 
+```
