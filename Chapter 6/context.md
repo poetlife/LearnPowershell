@@ -22,6 +22,10 @@ Compare-Object
 PS > Get-Service | ConvertTo-HTML | Out-File service.html 
 ```
 ## 使用Cmdlets修改系统：终止进程和停止服务
+```
+停止记事本的进程
+PS E:\> Get-Process -name notepad | Stop-Process
+```
 Cmdlet以某些方式修改系统，并且有一个内部定义的影响级别（impact level）。Cmdlet的创建者已经设定了这些影响级别，并且不允许修改。
 ```
 PS E:\> $ConfirmPreference
