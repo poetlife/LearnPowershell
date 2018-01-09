@@ -33,3 +33,4 @@ High
 ```
 **工作原理**：当Cmdlet的内部影响级别大于等于shell的“$ConfirmPreference”设置时，不管Cmdlet正准备做什么，shell都会自动询问“Are you sure?”。当其小于时，则不会弹出。
 ## 常见误区
+`Get-Conten`与`Import-`的区别在与，`get-content`并不会对获取的内容进行解析
