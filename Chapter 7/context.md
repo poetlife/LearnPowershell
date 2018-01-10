@@ -1,3 +1,11 @@
 # 第7章 扩展命令
 > 可扩展性是PowerShell的一个主要优势。随着微软对PowerShell的持续投入，它为Exchange Server、Sharepoint Server、System Center系列、SQL Server等产品开发了越来越多的命令。通常，当你安装这些产品的管理工具时，还会安装一个或多个Windows PowerShell扩展的图形化管理控制台。
 
+## 如何让一个Shell完成所有事情
+## 关于产品的“管理Shell”
+## 扩展：找到并添加插件
+## 扩展：找到并添加模块
+## 命令冲突和移除扩展
+## 玩转一个新模块
+## 配置脚本：在启动Shell时预加载扩展
+## 常见误区
