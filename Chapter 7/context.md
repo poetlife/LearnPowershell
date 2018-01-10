@@ -6,6 +6,7 @@ PowerShell的工作原理几乎与MMC完全一样。安装一个给定产品的�
 ![MMC1](https://github.com/poetlife/LearnPowershell/blob/master/pics/7_1.jpg)
 ![MMC2](https://github.com/poetlife/LearnPowershell/blob/master/pics/7_2.jpg)
 ## 关于产品的“管理Shell”
+> 我们必须澄清，只有一个Windows PowerShell。根本就没有分Exchange PowerShell和活动目录PowerShell，只有一个Shell。
 ## 扩展：找到并添加插件
 ## 扩展：找到并添加模块
 ## 命令冲突和移除扩展
